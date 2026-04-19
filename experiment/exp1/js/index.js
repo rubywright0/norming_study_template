@@ -48,9 +48,9 @@ function removeFromArray(arr, elements) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ///Make sure the number of lexicalizations can be divided by the number of conditions. 
-number_of_conditions = 4;
-number_of_lexicalizations = 8;
-number_of_fillers = 16;
+number_of_conditions = 2;
+number_of_lexicalizations = 12;
+number_of_fillers = 24;
 
 presentation_list = [];
 lexicaliation_list = [];
@@ -165,7 +165,7 @@ function make_slides(f) {
       $(".err").hide();
       $(".errgood").hide();
       this.stim = stim;
-      $(".prompt").html("Who did you send the letter to?");
+      $(".prompt").html("The angry ant climbs the mountain");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
       exp.first_response_wrong = 0;
@@ -231,7 +231,7 @@ function make_slides(f) {
     present_handle : function(stim) {
       $(".err").hide();
       $(".errbad").hide();
-      $(".prompt").html("Who email did send he to?");
+      $(".prompt").html("The hot soup the drinks girl");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
       exp.first_response_wrong = 0;
