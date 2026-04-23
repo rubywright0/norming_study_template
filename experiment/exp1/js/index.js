@@ -333,10 +333,10 @@ function make_slides(f) {
         "response" : exp.sliderPost,
         "lexicalization": this.stim.lexicalization,
         "sentence": this.stim.sentence,
-        "gap_position": this.stim.gap_position,
-        "complementizer": this.stim.complementizer,
+        "condition": this.stim.condition,
+        "item_type": this.stim.item_type,
         "trial_sequence_total": order,
-        "sentence_id": this.stim.unique_id
+        "unique_id": this.stim.unique_id
       });
       order = order + 1;
     }
