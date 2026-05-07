@@ -304,7 +304,7 @@ function make_slides(f) {
     present_handle : function(stim) {
       $(".err").hide();
       this.stim = stim; //I like to store this information in the slide so I can record it later.
-      $(".target").html(stim.sentence);
+      $(".target").html(stim.full_sentence);
       this.init_sliders()
       exp.sliderPost = null; //erase current slider value
     },
@@ -332,7 +332,7 @@ function make_slides(f) {
         // item-specific fields
         "response" : exp.sliderPost,
         "lexicalization": this.stim.lexicalization,
-        "sentence": this.stim.sentence,
+        "sentence": this.stim.full_sentence,
         "condition": this.stim.condition,
         "item_type": this.stim.item_type,
         "trial_sequence_total": order,

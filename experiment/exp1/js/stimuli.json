@@ -1,4 +1,4 @@
-[
+all_stimuli = [
     {
         "lexicalization": 1,
         "unique_id": 11,
@@ -45,14 +45,14 @@
         "lexicalization": 4,
         "unique_id": 41,
         "condition": "human",
-        "full_sentence": "The dancer includes Spanish flamenco ",
+        "full_sentence": "The student is derived from ancient Greek texts",
         "item_type": "test"
     },
     {
         "lexicalization": 4,
         "unique_id": 42,
         "condition": "nonhuman",
-        "full_sentence": "The intricate competition routine includes Spanish flamenco",
+        "full_sentence": "The tome is derived from ancient Greek texts",
         "item_type": "test"
     },
     {
@@ -73,28 +73,28 @@
         "lexicalization": 6,
         "unique_id": 61,
         "condition": "human",
-        "full_sentence": "The astronomer orbits the newly discovered planet",
+        "full_sentence": "The artist is formed from slippery red clay",
         "item_type": "test"
     },
     {
         "lexicalization": 6,
         "unique_id": 62,
         "condition": "nonhuman",
-        "full_sentence": "The moon orbits the newly discovered planet",
+        "full_sentence": "The artisan flowerpot is formed from slippery red clay",
         "item_type": "test"
     },
     {
         "lexicalization": 7,
         "unique_id": 71,
         "condition": "human",
-        "full_sentence": "The cartographer borders the coral reef",
+        "full_sentence": "The salesman is built from the ruins of the town hall",
         "item_type": "test"
     },
     {
         "lexicalization": 7,
         "unique_id": 72,
         "condition": "nonhuman",
-        "full_sentence": "The new island borders the coral reef",
+        "full_sentence": "The new skyscraper is built from the ruins of the town hall",
         "item_type": "test"
     },
     {
@@ -129,14 +129,14 @@
         "lexicalization": 10,
         "unique_id": 101,
         "condition": "human",
-        "full_sentence": "The man encloses the backyard",
+        "full_sentence": "The teacher comprises six difficult classes",
         "item_type": "test"
     },
     {
         "lexicalization": 10,
         "unique_id": 102,
         "condition": "nonhuman",
-        "full_sentence": "The old fence encloses the backyard",
+        "full_sentence": "The busy schedule comprises six difficult classes",
         "item_type": "test"
     },
     {
